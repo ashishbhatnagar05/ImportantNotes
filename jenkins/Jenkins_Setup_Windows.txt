@@ -1,0 +1,9 @@
+# Jenkins Setup Windows
+
+1-- install Jenkins
+2--	update port in jenkins folder jenkins.xml as 9090, there might be comflicts if oracle or other tomcat installation are running concurrently on OS
+3--	Restart: cmd(administrator) cd to C:\Program Files (x86)\Jenkins
+		--Jenkins restart
+4-- go to C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword
+		--cody and paste the token
+5-- install suggested plugins		
